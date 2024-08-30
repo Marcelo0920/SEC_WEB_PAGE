@@ -1,0 +1,174 @@
+.crearPublicacion {
+  width: 750px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.crearPublicacion h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.crearPublicacionTitles {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.crearPublicacionInput {
+  color: #b3b3b3;
+  width: 100%;
+}
+
+.crearPublicacionInput input {
+  background-color: #343a40;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: #b3b3b3;
+}
+
+.crearPublicacionInput select {
+  background-color: #343a40;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: #b3b3b3;
+}
+
+.crearPublicacionInput input::placeholder {
+  color: #b3b3b3;
+}
+
+.crearPublicacionInput:first-child {
+  margin-right: 15px;
+}
+
+.descripcionPublicacion {
+  color: #b3b3b3;
+  width: 100%;
+}
+
+.crearPublicacion span {
+  color: #ff0033;
+}
+
+.descripcionPublicacion textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #343a40;
+  border: none;
+  border-radius: 8px;
+  color: #b3b3b3;
+}
+
+.descripcionPublicacion textarea::placeholder {
+  color: #b3b3b3;
+}
+
+.uploadFile {
+  margin-top: 20px;
+  height: 270px;
+  border: 5px dashed #343a40;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.uploadFile input {
+  display: none;
+}
+
+.uploadFile svg {
+  font-size: 80px;
+  color: #343a40;
+}
+
+.label-input {
+  cursor: pointer;
+}
+
+.fileUploaded {
+  display: flex;
+  justify-content: space-between;
+  background-color: #dce4f4;
+  margin: 20px 0px;
+  padding: 10px 10px;
+  border-radius: 18px;
+}
+
+.fileComponent {
+  transition: 0.6s all;
+}
+
+.fileUploaded svg {
+  font-size: 22px;
+  color: #343a40;
+}
+
+.fileUploadedIcons {
+  display: flex;
+}
+
+.fileUploadedIcons svg {
+  transition: 0.3s ease;
+}
+
+.fileUploadedIcons svg:hover {
+  color: red;
+  font-size: 26px;
+}
+
+.message {
+  background-color: #e5fdff;
+  padding: 20px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 8px;
+  border-top: 10px none #ff6550;
+  border-bottom: 10px none #ff6550;
+  border-left: 5px solid #00becc;
+}
+
+.message p {
+  color: #008f99;
+}
+
+.message svg {
+  color: #00becc;
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.publicarButton {
+  background-color: #343a40;
+  width: 100%;
+  border: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  color: white;
+  padding: 20px 0px;
+  max-height: 45px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.publicarButton:hover {
+  cursor: pointer;
+}

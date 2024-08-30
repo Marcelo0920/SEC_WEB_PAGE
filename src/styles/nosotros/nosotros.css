@@ -1,0 +1,37 @@
+.nosotrosSection {
+  text-align: center;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.nosotrosSection h1 {
+  color: #495057;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.nosotrosSection p {
+  color: #000000;
+  font-family: "Lora", serif;
+  margin-top: 15px;
+}
+
+.nosotrosContainer {
+  margin: 70px 0px;
+}
+
+.nosotrosMap {
+  max-width: 600px;
+  max-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  margin: 50px auto;
+}
+
+.leaflet-container {
+  height: 60vh;
+  width: 60vw;
+}

@@ -1,0 +1,39 @@
+.publicacionesTitle {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #495057;
+}
+
+.publicacionesNavigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.publicacionesNavList {
+  display: flex;
+}
+
+.publicacionesNavList li {
+  margin-right: 15px;
+  font-family: "Lora", serif;
+  color: #495057;
+  cursor: pointer;
+}
+
+.publicacionesNavigation p {
+  font-family: "Lora", serif;
+  color: #495057;
+  cursor: pointer;
+}
+
+.publicacionesNavigation p > a {
+  color: #495057;
+}
+
+@media only screen and (max-width: 480px) {
+  .publicacionesTitle {
+    margin-top: 40px;
+  }
+}

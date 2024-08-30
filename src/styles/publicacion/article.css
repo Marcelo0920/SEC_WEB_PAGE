@@ -1,0 +1,152 @@
+.articleContainer {
+  height: 440px;
+  width: 240px;
+}
+
+.articleContainer img {
+  width: 100%;
+  height: 240px;
+  object-fit: fill;
+  border-radius: 15px;
+}
+
+.articleDate {
+  font-family: "Lora", serif;
+  margin: 8px 0;
+  color: #6c757d;
+  font-size: 12px;
+}
+
+.articleTitle {
+  font-family: "Lora", serif;
+  margin: 8px 0;
+  color: #495057;
+  font-size: 14px;
+}
+
+.articleText {
+  font-family: "Lora", serif;
+  color: #6c757d;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.singleArticleTitle {
+  color: #d4a373;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.articleRelaseDate {
+  color: #495057;
+  font-family: "Lora", serif;
+  margin-right: 30px;
+}
+
+.articleImages {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.articleImages img {
+  width: 420px;
+  height: 300px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.articleTopics {
+  display: flex;
+  margin-top: 25px;
+}
+
+.articleTopics p {
+  border-width: 1px;
+  border-color: #6c757d;
+  border-radius: 7px;
+  border-style: solid;
+  padding: 4px;
+}
+
+.articleTopics p {
+  color: #6c757d;
+  font-family: "Roboto", sans-serif;
+  margin-right: 15px;
+}
+
+.articleAutor {
+  display: flex;
+  margin: 120px 0px;
+}
+
+.articleAutor img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 25px;
+}
+
+.articleAutorText p {
+  color: #6c757d;
+  font-family: "Lora", serif;
+  font-size: 13px;
+}
+
+.articleAutorText p:first-child {
+  color: #343a40;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.articleResume {
+  display: flex;
+  margin: 0% 5%;
+}
+
+.articlePageContainer {
+  max-width: 70vw;
+  margin: 60px auto;
+}
+
+@media only screen and (max-width: 1280px) {
+  .articleContainer {
+    height: 390px;
+    width: 230px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .articleContainer {
+    height: 400px;
+    width: 190px;
+  }
+
+  .articleContainer img {
+    width: 100%;
+    height: 220px;
+    object-fit: fill;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .articlePageContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .articleContainer img {
+    width: 100%;
+    height: 220px;
+    object-fit: fill;
+    border-radius: 15px;
+  }
+}
